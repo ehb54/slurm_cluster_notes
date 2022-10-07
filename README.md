@@ -5,6 +5,7 @@ This is a work-in-progress
 ### background
 
 Needed to install a simple slurm cluster, added notes here for reference.
+
 Installation of slurm is not described
 
 ### docs
