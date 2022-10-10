@@ -49,6 +49,7 @@ Under `slurm.confs` are example `slurm.conf` files from clusters
   * if firewall can be disabled on the interconnect, all the better.
 * file systems must be shared on all nodes for any directory used for slurm jobs
   * e.g. for ultrascan us3iab jobs, we must share `/home/us3/lims/work`
+  * NFS is typical, [e.g. NFS on Rocky 8](https://www.howtoforge.com/how-to-set-up-an-nfs-mount-on-rocky-linux-8/)
 * any dependencies (programs/libraries) should match across nodes
 
 ### slurm.conf notes
