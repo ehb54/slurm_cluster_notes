@@ -11,7 +11,7 @@
 # Ansible managed
 #
 ClusterName=auculeth
-ControlMachine=localhost
+SlurmctldHost=node0(142.66.17.10)
 #ControlAddr=
 #BackupController=
 #BackupAddr=
