@@ -44,7 +44,7 @@ Under `slurm.confs` are example `slurm.conf` files from clusters
   * make sure ownership/permissions are correct (munge:munge r-----)
   * after change of munge.key on nodeX `nodeX $ sudo service munge restart`
   * test with `node0 $ ssh nodeX munge -n | unmunge`
-* time must be syncchronized on all nodes
+* time must be synchronized on all nodes
 * ports must be open between nodes
   * if firewall can be disabled on the interconnect, all the better.
 * file systems must be shared on all nodes for any directory used for slurm jobs
